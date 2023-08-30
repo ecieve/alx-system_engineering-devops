@@ -1,2 +1,4 @@
 #!/bin/bash
-ls -la. .. /boot
+cd /boot
+echo -e "\nFiles in /boot directory:"
+ls -lA
